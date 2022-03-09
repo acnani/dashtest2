@@ -1,6 +1,6 @@
 FROM python:3.8-slim
 
-EXPOSE 80
+EXPOSE 3000
 
 RUN mkdir /app
 WORKDIR /app
