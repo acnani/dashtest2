@@ -2,10 +2,10 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 
-app = dash.Dash()
-application = app.server
+app123 = dash.Dash()
+app = app123.server
 
-app.layout = html.Div(children=[
+app123.layout = html.Div(children=[
     html.H1(children='Hello Dash'),
 
     html.Div(children='''
@@ -27,4 +27,4 @@ app.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
-    application.run(debug=True, port='3000')
+    app.run()
