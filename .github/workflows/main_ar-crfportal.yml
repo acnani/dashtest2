@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'AR-CRFportal'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F3BF3B719A664B26B1B9806381B5A547 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CEF97366055D49FEA846A6CC4FD4FDD5 }}
